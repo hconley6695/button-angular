@@ -3,6 +3,6 @@ import angular from 'angular';
 import { MainController } from './main';
 
 angular
-	.module('app', []);
-	// .controller('MainController', MainController);
+	.module('app', [])
+	.controller('MainController', MainController);
 
