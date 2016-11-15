@@ -3,3 +3,22 @@
 // Turn on freq used libraries
 // @import 'normalize-css/normalize';
 // @import 'font-awesome/scss/font-awesome';
+
+.container {
+	height: 300px;
+	width: 300px;
+	margin: auto;
+}
+
+button {
+	height: 50px;
+	width: 150px;
+	background-color: #0575eb;
+	color: #ffffff;
+	font-size: 16px;
+	border: 1px solid black;
+	&:hover {
+		background-color: #aad3fe;
+		color: black;
+	}
+}
